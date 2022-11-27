@@ -1,5 +1,5 @@
 ## Personal Website
-This is the open source repository of my personal website, built with [React](https://reactjs.org/), [SwiperJS](https://swiperjs.com/), [FormSpree](https://formspree.io/), and hosted on [Netlify](https://www.netlify.com/).
+This is the open source repository of my personal website, built with [React](https://reactjs.org/), [SwiperJS](https://swiperjs.com/), [FormSpree](https://formspree.io/), and hosted on [Fleek](https://fleek.co/).
 
 ### See the site live at:
 #### https://andrecavalheiro.eth.limo/
