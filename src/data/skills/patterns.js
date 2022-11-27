@@ -8,6 +8,11 @@ const patterns = [
   },
   {
     id: `P${it++}`,
+    technology: 'SRE',
+    level: '2+ Years',
+  },
+  {
+    id: `P${it++}`,
     technology: 'Agile',
     level: '2+ Years',
   },

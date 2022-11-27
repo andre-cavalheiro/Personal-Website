@@ -14,7 +14,7 @@ const machineLearning = [
   {
     id: `M${it++}`,
     technology: "Segment",
-    level: "1+ Years",
+    level: "2+ Years",
   },
   {
     id: `M${it++}`,

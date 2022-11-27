@@ -7,7 +7,6 @@ import {
   Footer,
   Home,
   Nav,
-  Portfolio,
   Skills
 } from "./components/index";
 
@@ -21,7 +20,6 @@ const App = () => {
       <Skills />
       <Experience />
       <Education />
-      <Portfolio />
       <Contact />
       <Footer />
     </div>

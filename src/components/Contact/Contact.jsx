@@ -15,39 +15,14 @@ export const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
               <h4>Email</h4>
               <h5>andre.cavalheiro13@gmail.com</h5>
-              <a
-                href='andre.cavalheiro13@gmail.com'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Write me
-              </a>
           </article>
           <article className='contact__option'>
             <IoLogoWhatsapp className='contact__option-icon' />
               <h4>WhatsApp</h4>
               <h5>+351 932 157 434</h5>
-              <a
-                href='https://wa.me/351932157434'
-                target='_blank'
-                rel='noreferrer'
-              >
-              </a>
           </article>
         </div>
       </div>
     </section>
   );
 };
-
-/*
-        {END OF CONTACT OPTIONS }
-        <form action='https://formspree.io/f/xlezwqkd' method='POST' target='_blank'>
-          <input type='text' name='name' placeholder='Name' required />
-          <input type='email' name='email' placeholder='Email' required />
-          <textarea name='message' rows='5' placeholder='Message' required />
-          <button type='submit' className='btn btn-primary'>
-            Send Message
-          </button>
-        </form>
-*/

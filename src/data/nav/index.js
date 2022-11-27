@@ -36,12 +36,6 @@ export const navListDesktop = [
     name: 'Education',
   },
   {
-    id: 'portfolio',
-    sectionId: '#portfolio',
-    icon: <BiBook />,
-    name: 'Portfolio',
-  },
-  {
     id: 'contact',
     sectionId: '#contact',
     icon: <AiOutlineMessage />,
@@ -79,12 +73,6 @@ export const navListMobile = [
     sectionId: '#education',
     icon: <HiOutlineAcademicCap />,
     name: 'Education',
-  },
-  {
-    id: 'portfolio',
-    sectionId: '#portfolio',
-    icon: <BiBook />,
-    name: 'Portfolio',
   },
   {
     id: 'contact',

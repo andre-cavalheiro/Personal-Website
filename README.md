@@ -2,7 +2,7 @@
 This is the open source repository of my personal website, built with [React](https://reactjs.org/), [SwiperJS](https://swiperjs.com/), [FormSpree](https://formspree.io/), and hosted on [Netlify](https://www.netlify.com/).
 
 ### See the site live at:
-#### https://www.pedro-areal-torres.me/
+#### https://andrecavalheiro.eth.limo/
 
 ## Build
 Since this project was built with React, the first thing you'll need is a Code Editor.
