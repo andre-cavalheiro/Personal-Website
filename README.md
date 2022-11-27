@@ -40,7 +40,7 @@ yarn build
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+[Deploy to Fleek](https://blog.fleek.co/posts/deploy-your-first-website-with-fleek/)
 
 ## Learning React
 
