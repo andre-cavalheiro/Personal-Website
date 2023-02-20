@@ -17,7 +17,7 @@ export const Experience = () => {
   return (
     <section id="experience">
       <h2>Experience</h2>
-
+      <div className="experience__description"><i>If you want a longer description about each one of these experiences, download my resume above</i> ☝️</div>
       <div className="experience__container container">
         <div className="experience__sections">
           <div className="experience__content" id="work">
@@ -36,20 +36,26 @@ export const Experience = () => {
                     className="experience__logo experience__logo--saturate"
                   />
                 </span>
-                <h3 className="experience__title">Data Scientist | Product Engineer</h3>
                 <p>Engineering Founder</p>
                 <a
                   href="https://www.rely.io"
-                  target="_blank"
                   rel="noreferrer"
                   className="experience__subtitle"
                 >
                   Rely.io
                   <FiLink className="experience__hyperlink" />
                 </a>
+                <p></p>
+                 <h3 className="experience__title">Customer Reliability Engineer</h3>
+
                 <div className="experience__calendar">
-                  <BsCalendar3 className="experience__calendar-icon" /> 02/2021
+                  <BsCalendar3 className="experience__calendar-icon" /> 01/2023
                   - Present
+                </div>
+                <h3 className="experience__title">Data Scientist</h3>
+                <div className="experience__calendar">
+                  <BsCalendar3 className="experience__calendar-icon" /> 03/2021
+                  - 01/2023
                 </div>
               </div>
             </div>
@@ -74,7 +80,6 @@ export const Experience = () => {
                   Indexed Finance
                   <FiLink className="experience__hyperlink" />
                 </a>
-                <p>
                   <a
                     href="https://github.com/gemasphi/ndx-polling-app"
                     target="_blank"
@@ -85,7 +90,6 @@ export const Experience = () => {
                     <FiLink className="experience__hyperlink" />
                   
                   </a>
-                </p>
                 <div className="experience__calendar">
                   <BsCalendar3 className="experience__calendar-icon" /> 05/2020 - 05/2021
                 </div>
@@ -112,7 +116,7 @@ export const Experience = () => {
                     className="experience__logo experience__logo--saturate"
                   />
                 </span>
-                <h3 className="experience__title">Researcher</h3>
+                <h3 className="experience__title">Junior Researcher</h3>
                 <a
                   href="https://www.inesc-id.pt/"
                   target="_blank"
@@ -125,7 +129,7 @@ export const Experience = () => {
                 <p>
                   Publication: 
                   <a
-                    href="https://www.inesc-id.pt/"
+                    href="https://dl.acm.org/doi/full/10.1145/3550272"
                     target="_blank"
                     rel="noreferrer"
                     className="experience__subtitle"
