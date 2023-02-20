@@ -47,21 +47,22 @@ export const Experience = () => {
                 </a>
                 <p></p>
                  <h3 className="experience__title">Customer Reliability Engineer</h3>
-
+                 <p></p>
                 <div className="experience__calendar">
                   <BsCalendar3 className="experience__calendar-icon" /> 01/2023
                   - Present
                 </div>
                 <h3 className="experience__title">Data Scientist</h3>
                 <div className="experience__calendar">
-                  <BsCalendar3 className="experience__calendar-icon" /> 03/2021
+                  <BsCalendar3 className="experience__calendar-icon" /> 02/2021
                   - 01/2023
                 </div>
               </div>
             </div>
 
-            {/* QUALIFICACAO 2 */}
-            <div className="experience__data">
+
+                        {/* QUALIFICACAO 2 */}
+                        <div className="experience__data">
               <div className="experience__data--odd">
                 <span>
                   <img
@@ -91,7 +92,7 @@ export const Experience = () => {
                   
                   </a>
                 <div className="experience__calendar">
-                  <BsCalendar3 className="experience__calendar-icon" /> 05/2020 - 05/2021
+                  <BsCalendar3 className="experience__calendar-icon" /> 01/2021 - 04/2021
                 </div>
               </div>
 
@@ -139,7 +140,7 @@ export const Experience = () => {
                   </a>
                 </p>
                 <div className="experience__calendar">
-                  <BsCalendar3 className="experience__calendar-icon" /> 05/2020 - 06/2021
+                  <BsCalendar3 className="experience__calendar-icon" /> 04/2020 - 06/2021
                 </div>
               </div>
             </div>
