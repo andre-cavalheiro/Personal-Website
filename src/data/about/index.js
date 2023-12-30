@@ -10,7 +10,7 @@ export const outerCircleIcons = [
 
 export const aboutMeData = [
   {
-    title: Product Manager',
+    title: 'Product Manager',
     location: 'Based in Lisbon, Portugal',
     descr:
       'I\'m a curious and passionate individual, who enjoys studying and learning things. I am methodical, ambitious, practical and I take lots of notes and make lots of lists. I\'m experienced in all phases of the software development lifecycle, from research to design and delivery.',
