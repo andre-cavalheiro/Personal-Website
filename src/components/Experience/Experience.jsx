@@ -46,7 +46,7 @@ export const Experience = () => {
                   <FiLink className="experience__hyperlink" />
                 </a>
                 <p></p>
-                 <h3 className="experience__title">Customer Reliability Engineer</h3>
+                 <h3 className="experience__title">Product Manager</h3>
                  <p></p>
                 <div className="experience__calendar">
                   <BsCalendar3 className="experience__calendar-icon" /> 01/2023
