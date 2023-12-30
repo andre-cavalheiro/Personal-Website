@@ -26,7 +26,7 @@ export const aboutMeList = [
   },
   {
     id: it++,
-    title: '4+',
+    title: '5+',
     descr: 'Years of Experience',
   }
 ];
