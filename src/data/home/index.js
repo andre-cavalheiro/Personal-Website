@@ -1,6 +1,5 @@
 export const TypewriterStrings = [
-  'Machine Learning Engineer',
+  'Product Manager',
   'Data Scientist',
   'Backend Engineer',
-  'Wizard'
 ];
