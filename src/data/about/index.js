@@ -10,10 +10,10 @@ export const outerCircleIcons = [
 
 export const aboutMeData = [
   {
-    title: 'Machine Learning Engineer',
-    location: 'Currently living in Lisbon, Portugal',
+    title: Product Manager',
+    location: 'Based in Lisbon, Portugal',
     descr:
-      'Experienced in all phases of the software development lifecycle, from concept to delivery. Consistently praised for being a hands-on, detail-oriented quick learner who is dedicated to his roles and deadlines.',
+      'I\'m a curious and passionate individual, who enjoys studying and learning things. I am methodical, ambitious, practical and I take lots of notes and make lots of lists. I\'m experienced in all phases of the software development lifecycle, from research to design and delivery.',
   },
 ];
 
