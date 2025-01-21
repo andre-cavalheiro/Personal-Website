@@ -1,47 +1,62 @@
 ## Personal Website
-This is the open source repository of my personal website, built with [React](https://reactjs.org/), [SwiperJS](https://swiperjs.com/), [FormSpree](https://formspree.io/), and hosted on [Fleek](https://fleek.co/).
 
-### See the site live at:
-#### https://andrecavalheiro.eth.limo/
+This is the open-source repository for my online resume. You can view it live at [https://cavalheiro.io](https://cavalheiro.io).
+
+---
 
 ## Build
-Since this project was built with React, the first thing you'll need is a Code Editor.
-1. Make sure you have Node.js installed in your computer, and run:
 
-```console
-yarn create react-app
+### Using Docker
+
+To build and run the website using Docker:
+
+```bash
+docker build -f ./deploy/Dockerfile -t personal-website .
+docker run -p 3000:3000 personal-website
 ```
 
-2. Then, clone the repository and change into the working directory:
+### Manually
 
-```console
-git clone https://github.com/pedro-areal-torres/Website-Portfolio
-cd Website-Portfolio
-```
+1. Install all the necessary dependencies:
 
-3. Install all the necessary dependencies:
-
-```console
+   ```bash
 yarn install
 ```
 
-4. Start the development server with:
+2. Start the development server:
 
-```console
+   ```bash
 yarn start
 ```
-Your site is now running at `http://localhost:3000`!
 
-5. Finally, if you want to build the application, use:
+   Your site will now be running at `http://localhost:3000`.
 
-```console
-yarn build
+---
+
+## Deploying
+
+### Helm
+
+Push the Docker image to a registry:
+
+```bash
+docker build -t personal-website:latest . -f ./deploy/Dockerfile
+docker tag personal-website:latest andrecavalheiro/personal-website:latest
+docker push andrecavalheiro/personal-website:latest
 ```
 
-## Deploy
+Deploy the Helm chart onto a Kubernetes cluster:
 
-[Deploy to Fleek](https://blog.fleek.co/posts/deploy-your-first-website-with-fleek/)
+```bash
+helm install personal-website ./deploy/helm
 
-## Learning React
+# Optional: Forward a local port to the service for debugging
+kubectl port-forward pod/<POD_NAME> 3000:3000
+```
 
-If you are unfamiliar with React, follow their [in-depth tutorial for creating a new React App](https://reactjs.org/docs/create-a-new-react-app.html).
+---
+
+## Deploying with Fleek
+
+You can deploy your site easily with Fleek. For detailed instructions, check out the [Fleek Deployment Guide](https://blog.fleek.co/posts/deploy-your-first-website-with-fleek/).
+

@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: andrecavalheiro/personal-website
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 3000
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 500m
+    memory: 512Mi
+
